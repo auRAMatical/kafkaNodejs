@@ -1,0 +1,7 @@
+1. Start Zookeeper first.
+2. Start Kafka Brokers (three here each with different kafka-logs file and server.properties file) in the cluster.
+3.Create a topic(natural) with one partition and a replication factor of one here with the bootstrap server as the broker started in the step 2.
+4.Create a package.json file with the command npm init.
+5.Create a producer.js file after installing the dependencies like kafkajs and chance(for random addresses).
+6.Finally create a consumer which consumes from the same topic that the producer writes messages into.
+- Done - @auRAMatical.
